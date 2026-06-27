@@ -15,6 +15,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 <!-- 新增 skill 文件后，在此处添加一行：- [文件名](skills/文件名) — 一句话说明 -->
 
 - [meta-skill.md](skills/meta-skill.md) — 如何判断、创建和维护 skill 文件的元规范
+- [multi-agent-design.md](skills/multi-agent-design.md) — multi-agent 架构设计：4 个失败模式与 Orchestrator 分工原则
 
 ## 加载规则
 
