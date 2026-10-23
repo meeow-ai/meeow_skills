@@ -18,6 +18,8 @@ pixel-identical to the hand-built original on 18 sampled frames.
 
 - An agent that can read files and run code on a computer: Claude Code, Codex, Grok, Google Antigravity, Meta Muse,
   DeepSeek's agent, Hermes Agent or similar. (Tested on Claude Code.)
+  A cloud sandbox works as well as a local machine. If the agent has its own image or music generation tool,
+  use that instead of the shipped providers: only `gen/<name>.png` and `gen/score.wav` matter to the render.
 - Python 3 with Playwright + Chromium (`pip install playwright && playwright install chromium`), and ffmpeg.
 - An image model key (shipped provider: `XAI_API_KEY` for Grok) and a music model key (shipped: `GEMINI_API_KEY`
   for Lyria, plus `pip install google-genai`). Other models: add a provider (see below).
