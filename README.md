@@ -34,6 +34,7 @@ Skills about working with Claude itself.
 |-------|-------------|
 | [`skills/multi-agent-design`](skills/multi-agent-design/SKILL.md) | Multi-agent architecture patterns — 4 failure modes and the Orchestrator model. |
 | [`skills/meta-skill`](skills/meta-skill/SKILL.md) | How to evaluate, create, and maintain skills in this library. |
+| [`skills/stills-to-film`](skills/stills-to-film/SKILL.md) | One coding agent orchestrates an image model + a music model; code animates the stills and renders a vertical short film. No orchestration framework, no video model. |
 
 ---
 

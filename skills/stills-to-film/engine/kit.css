@@ -1,0 +1,22 @@
+/* story-stills kit: 1080x1920 frame, image layers, captions, sparkles, flash, stamp, reveal card. Films override sizes/colors. */
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#120c08}
+.layer{position:absolute;inset:0;opacity:0;overflow:hidden}
+.layer>img{position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover;transform-origin:50% 50%}
+.hand{font-family:Caveat,cursive}.serif{font-family:Fraunces,serif}.sans{font-family:Inter,sans-serif}
+.cap{position:absolute;left:60px;right:60px;text-align:center;color:#fff8ec;font-weight:700;opacity:0;
+     text-shadow:0 4px 26px rgba(0,0,0,.85),0 2px 5px rgba(0,0,0,.85)}
+.vig{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 45%,transparent 55%,rgba(0,0,0,.45))}
+#flash{position:absolute;inset:0;background:#fff3d6;opacity:0;pointer-events:none}
+#spark{position:absolute;inset:0;pointer-events:none}
+.sp{position:absolute;color:#ffd98a;text-shadow:0 0 16px #ffb347}
+.stamp{position:absolute;left:50%;top:50%;padding:22px 48px;border:9px solid #d23b2a;color:#d23b2a;font-size:120px;font-weight:700;
+  letter-spacing:10px;border-radius:18px;opacity:0;background:rgba(255,255,255,.06)}
+/* reveal card: each .item = label (.was) + honest line (.honest) that a wand wipes away, revealing .now with <mark> highlights */
+.reveal .item{opacity:0;margin-top:44px;position:relative}
+.reveal .was{font-size:30px;letter-spacing:4px;color:#c9a24a;font-weight:600;height:38px;overflow:hidden}
+.reveal .box{position:relative;margin-top:8px}
+.reveal .now{font-size:45px;line-height:1.28;clip-path:inset(0 100% 0 0)}
+.reveal .honest{position:absolute;left:0;right:0;top:-4px;font-size:64px;color:#f3e9d6}
+.reveal mark{color:inherit;background:linear-gradient(#ffd56b,#ffd56b) no-repeat 0 100%/0% 3px;padding:0 2px}
+.reveal .wand{position:absolute;top:-10px;bottom:-10px;width:6px;margin-left:-3px;border-radius:3px;opacity:0;
+  background:#fff6d8;box-shadow:0 0 18px 6px #ffcf5a,0 0 50px 14px #ffb34766}
